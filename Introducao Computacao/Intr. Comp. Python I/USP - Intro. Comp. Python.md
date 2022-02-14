@@ -132,3 +132,47 @@ Exemplos: Java e Python
 5 != 4 + 1
 20 ** 2 != 400
 ```
+
+# Variáveis e Primeiro Programa
+14/02/2022
+
+**Variáveis**: Uma parte da memória onde podemos guardar valores para ser modificado ou usado posteriormente. 
+
+```py
+x = 5
+print(x)
+# Resultado: 5
+
+y = 10 * 32 + x
+print(y)
+# Resultado: 325
+
+print(x)
+# Resultado: 5
+
+x = 345
+print(x)
+# Resultado: 345
+
+x = x + 10
+print(x)
+# Resultado: 355
+
+soma = x + y
+print(soma)
+# Resultado: 680
+
+peso = 78
+altura = 183
+
+
+```
+```py
+# Strings
+
+frase = "A massa ainda comerá do fino biscoito que fabrico"
+print(frase)
+# Resultado: "A massa ainda comerá do fino biscoito que fabrico"
+
+
+```

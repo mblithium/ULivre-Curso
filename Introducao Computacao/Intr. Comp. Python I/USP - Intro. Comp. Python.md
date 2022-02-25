@@ -176,3 +176,323 @@ print(frase)
 
 
 ```
+
+# Quatro maneiras de rodar python
+14/02/2022
+
+- Idle
+- Prompt de comando
+- Executar arquivos .py
+- Editor de texto do Idle
+
+# Software Livre
+14/02/2022
+
+## Computação
+
+**Simplificadamente, em Computação o que fazemos é**
+
+- Analisar o problema;
+- Criar um algoritmo genérico que resolva esse problema;
+- Escrever um programa que implemente esse algoritmo;
+- Testar o programa para verificar que ele realmente funciona.
+
+## Programas são peculiares
+
+- Um livro contém **conhecimento**
+  - Pode ser sobre ferramentas
+- Uma ferramenta (um martelo ou máquina) tem uma **utilidade**.
+  - Mas o conhecimento que a gerou não é acessível diretamente.
+- Um programa de computador é **as duas coisas**.
+  - Ele contém o conhecimento sobre o problema e sua solução, descritos na linguagem de programação.
+  - Ele é uma ferramenta para solucionar o problema quando é executado.
+- Programas podem ser muito facilmente **copiados**.
+- Programas podem ser **modificados** para incorporar melhorias ou resolver problemas novos.
+- **A mesma ferramenta pode ser usada e adaptada por várias pessoas!**
+- **O conhecimento pode ser acessado por todos!**
+
+Mas...
+
+- Do ponto de vista legal, programas são protegidos por direitos de autor (copyright)
+  - Metáfora pelo qual são "comprados" e "vendidos" como se fossem objetos.
+- O uso da ferramenta tem restrições
+  - É preciso pagar pelo uso, alguns tipos de uso podem ser retritos, etc
+- O conhecimento não pode ser mais usado por todos
+  - E muitas vezes o código fonte é secreto. Compiladas e não revelado o código-fonte. Somente código objeto.
+
+## O software livre
+
+O software pode e deve ser compartilhado.
+
+- "Se eu posso ajudar meu amigo (oferecendo uma cópia de um programa), por que não fazê-lo?"
+- "Se meu amigo pode aprender com meu trabalho (analisando o código-fonte de um programa), por que impedi-lo?"
+- "Se eu e meu amigo trabalharmos juntos, vamos criar mais facilmente um programa que resolva tanto os problemas dele quanto os meus!"
+  
+E não precisa nem ser meu amigo, pode ser uma comunidade com pessoas, empresas, governos, universidades...
+
+## Definição
+
+Um programa é Software Livre se oferecer as 4 liberdades seguintes:
+
+- Liberdade para **executar** o programa;
+- Liberdade para **estudar e modificar** o programa;
+- Liberdade para **redistribuir** o programa;
+- Liberdade para melhorar e **redistribuir as melhorias** ao programa.
+
+## Vantagens
+
+O Software Livre oferece diversas vantagens:
+- Redução do **custo** e do **risco** de desenvolvimento
+  - Não depende de uma única equipe paga por uma única empresa
+- **Qualidade** potencialmente maior
+  - Mais desenvolvedores trabalhando no programa
+  - Mais usuários reportando falhas
+  - Orgulho pessoal dos desenvolvedores
+- Permite ao usuário **escolher** seu fornecedor
+  - Qualquer um com acesso ao código-fonte pode prestar serviços
+
+## Software Livre e você
+
+- Várias linguagens de programação amplamente usadas, como **Java**, **Ruby** e **Python**, são Software Livre.
+  - E várias delas são usadas em cursos introdutórios à programação por sua excelente qualidade, clareza e popularidade.
+- Várias ferramentas que você conhece, como navegador **Firefox** e quase todo o sistema **Android**, além de partes fundamentais da infraestrutura de grandes sítios web, como servidor web **Apache** e o banco de dados **MySQL**, são Software Livre.
+
+# Tipos de Dados
+14/02/2022
+```py
+type(10)
+# Resultado: <class 'int'>
+
+type("tudo bem?")
+# Resultado: <class 'str'>
+
+type(5/2)
+# Resultado: <class 'float'>
+
+print(10 // 3)
+# Divisão inteira. Resultado: 3
+
+print(10 % 3)
+# Resto da divisão. Resultado: 1
+
+peso = 78
+altura = 1.83
+IMC = peso / (altura ** 2)
+print(IMC)
+# Resultado: 23.291229...
+
+IMCInteiro = int(IMC)
+print(IMCInteiro)
+# Converte para inteiro. Resultado: 23
+
+texto = "bom dia, tudo bem?"
+print(len(texto))
+# Conta quantos caracteres, comprimento. Resultado: 18
+
+print(len(str(IMC)))
+# Converte para string a variável IMC, conta quantos caracteres tem e exibe o valor na tela.
+```
+
+## Entrada de dados
+
+```py
+# temperaturaFahrenheit
+temperaturaF = float(input('Digite um valor F: '))
+
+temperaturaC = ((temperaturaF - 32) * 5) / 9
+
+print(f"A temperatura em celcios é {temperaturaF}")
+```
+
+# Expressões Booleanas
+15/02/2022
+
+> Expressões booleanas vem de George Boole, que criou a álgebra booleana, valores que tem apenas dois tipos de coisas, como ligado e desligado, 1 e 2, verdadeiro e falso, etc.
+
+```py
+5 > 3
+# True
+
+18 == 9 * 2
+# True
+
+x = 12312
+x < 0
+# False
+
+type(False)
+# <class 'bool'>
+```
+
+**And, Or e outros operadores**
+```py
+# Usa-se "and" (e) para comparar se os valores comparados são verdadeiros. Se um deles ser falso, imprime False.
+x = 12312
+x > 0 and x ** 2 > 100
+# True
+
+x < 0 and x == 12312
+# False
+
+# Usa-se "or" (ou) para comparar se um valor é verdadeiro. Se pelo menos um dos valores for verdadeiro, imprime True, ao contrário, será False
+x < 0 or x == 12312
+# True
+
+# O operador booleano "Not" inverte o valor booleano.
+not x > 0
+# False
+not True
+# False
+not False
+True
+not not True
+# True
+
+```
+
+### Tabela Verdade
+
+| Operator | True | False  |
+|---|---|---|
+| and | True | False  |
+| True | True  | False |
+| False  | False  | False |
+|---|---|---|
+| or | True  | False  |
+| True | True | True  |
+| False | True | False |
+|---|---|---|
+| not | False  | True  |
+|   |   |   |
+
+
+### Ordem de Operadores Aritméticos
+
+| Nível | Categoria | Operadores |
+|---|---|---|
+| 7 (auto) | Exponenciação | ** |
+| 6 | Multiplicação | *, /, //, % |
+| 5 | Adição e Subtração | +, -
+| 4 | Relacional | ==, !=, <=, >=, >, < |
+| 3 | Lógico | not |
+| 2 | Lógico | and |
+| 1 (baixo) | Lógico | or |
+| | | | | |
+
+```py
+x = 12312
+y = 50
+
+x > 0 and not y == 50 or x + y == 150
+# False
+((x > 0) and (not y == 50)) or (x + y == 150)
+# Melhora a visibilidade/entendimento ao usar parênteses.
+```
+
+## Execução Condicional
+
+Escrever determinado trecho do código que só é executada caso uma condição for verdadeiro.
+
+```py
+temperatura = 102
+if temperatura > 100:
+  aguaFerve = True
+print(aguaFerve)
+```
+
+```py 
+if condição:
+  comando
+  comando
+  comando...
+else:
+  comando
+  comando
+# If (se) e Else (se não)
+```
+
+```py
+import math
+
+# Modulo que alcula a raiz quadrada.
+math.sqrt(8)
+```
+
+# Repetição - While
+16/02/2022
+
+"Laço" ou "Loop" de repetição de blocos de comandos.
+
+```py
+while (expressão/condição booleana verdadeira):
+  comando1
+  comando2
+  ...
+comando3
+```
+```py
+i = 0
+while (i <= 17):
+  print(2 ** i)
+  i+
+print("Acabou")
+```
+## Variáveis booleanas - Indicadores de passagem
+
+Indicadores de passagem para indicar se uma determinada condição passou a ser verdadeira ou não.
+
+```py
+decrescente = True
+
+valor = 1
+anterior = int(input("Digite o primeiro número da sequência: "))
+while (valor != 0 and decrescente):
+  valor = int(input("Digite o próximo número da sequência: "))
+  if valor > anterior:
+    decrescente = False
+  anterior = valor
+
+if decrescente:
+  print("A sequência está em ordem decrescente!")
+else:
+  print("A sequência não está em ordem decrescente! ")
+```
+
+```py
+meuCartao = int(input("Digite o número do cartão de crédito: "))
+
+cartaoLido = 1
+encontreiMeuCartaoNaLista = False
+
+while cartaoLido != 0 and not encontreiMeuCartaoNaLista:
+  cartaoLido = int(input("Digite o número do próximo cartão de crédito: "))
+  if cartaoLido == meuCartao:
+    encontreiMeuCartaoNaLista = True
+
+if encontreiMeuCartaoNaLista:
+  print("Eba! Meu cartão está lá!")
+else:
+  print("Xii, meu cartão não está lá...")
+```
+
+## Debugger
+19/02/2022
+
+Depurador é um programa que nos ajuda a identificar erros no programa, executando ele passo por passo.
+
+- Breakpoints (pontos de parada)
+
+# Funções
+19/02/2022
+(Semana 5)
+
+São pedaços de código organizados em blocos, que recebe ou não parâmetros, retorna ou não algo e pode ser chamada ao decorrer do programa.
+
+```py
+def soma (x, y):
+  return x + y 
+
+```
+
+- Exemplo com Coeficientes Binomiais
+

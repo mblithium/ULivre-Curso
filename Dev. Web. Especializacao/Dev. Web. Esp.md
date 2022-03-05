@@ -96,3 +96,83 @@ https://gustavoguanabara.github.io
 How does the internet work - https://youtu.be/TNQsmPf24go
 
 # Capítulo 2 - Aula 01 - Como a Internet funciona?
+
+    Para poupar tempo, irei deixar pendente pois já vi esta aula antes de eu reiniciar os estudos. Irei preencher com anotações no futuro.
+
+# Capítulo 2 - Aula 02 - O que é domínio e hospedagem?
+
+    Para poupar tempo, irei deixar pendente pois já vi esta aula antes de eu reiniciar os estudos. Irei preencher com anotações no futuro.
+
+# Capítulo 3 - Aula 01 - A diferença entre HTML, CSS e JavaScript
+01/03/2022
+
+- A linguagem HTML;
+- As CSSs (folhas de estilo);
+
+- HTML - HyperText Markup Language (Linguagem de Marcação de Hipertexto). Focada em **conteúdo** (textos, imagens, videos, tabelas, etc)
+- CSS - Cascading Style Sheets (folhas de estilo em cascata). Focadas em **design/estilos** (cores, sombras, tamanhos, posicionamento).
+- JS - JavaScript - Focado em **interatividade** (menus, animações, popups, validações, lógica de programação, etc).
+
+Conteúdo em HTML
+
+- Exemplo de título: <h1></h1>
+- Exemplo de parágrafo: <p></p>
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Títulos do site</title>
+    </head>
+    <body>
+        <h1>Título</h1>
+        <p>Parágrado</p>
+    </body>
+</html>
+```
+
+Conteúdo em CSS
+
+```css
+/*Seletor h1 */ 
+h1 { 
+    /*declarações*/
+}
+```
+
+# Capítulo 3 - Aula 02 - Front-end, Back-end e Full Stack
+01/03/2022
+
+## Front-end e Back-end
+
+**Site estático**: O mesmo site é entregue para todos os clientes.
+**Sites dinâmicos**: As informações no site mudam de acordo com o usuário.
+
+**Back-end / Client-side**: Tecnologias como HTML5, CSS3 e JS. Do lado do cliente.
+**Front-end / Server-side**: Tecnologias como JavaScript (NodeJS), PHP, C#, Python, Ruby, Java, etc. Do lado do servidor.
+**Full stack**: Faz tanto o front-end, quanto o back-end.
+
+# Capítulo 4 - Aula 01 - Instalando todas as ferramentas
+01/03/2022
+
+- Navegador WEB (Recomendado Google Chrome);
+- Microsoft Visual Studio Code. Com "word wrap": on, "salvar automaticamente", extensões: "Live Server";
+
+# Capítulo 4 - Aula 02 - Seu primeiro código HTML
+
+[**Ex001**](./html-css/exercicios/ex001/index.html)
+
+
+# Capítulo 5 - Aula 01 - Parágrafos e Quebras de Linha
+01/03/2022
+
+```html
+<p>Parágrafo</p>
+<h1>Títulos</h1>
+<br> <!--quebra de linha-->
+<hr> <!--linha horizontal-->
+```
+
+# Capítulo 5 - Aula 02 - Símbolos e Emoji no seu site

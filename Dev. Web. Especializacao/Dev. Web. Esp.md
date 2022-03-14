@@ -347,4 +347,32 @@ Texto Subscrito: H<sub>2</sub>O
 ```
 
 # Capítulo 8 - Aula 04 - Citações de Códigos
-09/03/2022
+11/03/2022
+
+[Exercício 8 - B](./html-css/exercicios/ex008-b/index.html)
+
+- code (indica que é um bloco de código);
+- pre (manter pre-formatado, como foi escrito);
+- blockquote (bloco de citação);
+- abbr (abreviações);
+- bdo (direção do texto);
+
+TAB = Acrescenta tabulação
+SHIFT + TAB = Remove uma tabulação
+
+# Capítulo 9 - Aula 01 - Listas OL e UL
+11/03/2022
+
+[Exercício 9](./html-css/exercicios/ex009/index.html)
+
+- ol = Ordered Lists;
+- ul = Unordered Lists;
+
+# Capítulo 9 - Aula 02 - Listas mistas e de definição
+11/03/2022
+
+Segurar ALT e clicar em lugares onde quer alterar em massa.
+
+
+
+

@@ -373,6 +373,75 @@ SHIFT + TAB = Remove uma tabulação
 
 Segurar ALT e clicar em lugares onde quer alterar em massa.
 
+# Capítulo 10 - Aula 01 - Links e Âncoras em HTML5
+14/03/2022
+
+[Exercício 10](./html-css/exercicios/ex010/index.html)
+
+- Links na web são importantes para linkar para outras páginas;
+- Buscadores rankeiam melhor um site quando é referenciado por outros sites relevantes. SEO - Search Engine Optimization. 
+
+```html
+<!-- Abre em nova aba -->
+<a href="linkaqui" target="_blank" rel="external"> 
+
+```
+
+# Capítulo 10 - Aula 02 - Links Internos
+14/03/2022
+
+```html
+<!-- Vai para uma página interna indicando que é a próxima -->
+<a href="./linkaqui" rel="next"></a>
+
+<!-- Vai para uma página interna indicando que é uma página anterior. -->
+<!-- prev = previous -->
+<a href="./linkaqui" rel="prev"></a>
+
+<!-- Indica que é para abrir na mesma aba-->
+<a href="./linkaqui" target="_self"></a>
+
+<!-- Indica para o mecanismo de busca que aquela página não é para ser indexada por esse link. nofollow = "não seguir" -->
+<a href="https://linkaqui.com" rel="nofollow"></a>
 
 
+```
+
+# Capítulo 10 - Aula 03 - Links para download
+14/03/2022
+
+- mediatypes
+
+# Capítulo 10 - Aula 04 - Desafios Propostos
+14/03/2022
+
+[Página de Exercícios Sugeridos](https://github.com/gustavoguanabara/html-css/tree/master/desafios)
+
+> Fazer os exercícios propostos de acordo com os que já está apto a fazer com base no que estudou no módulo 01.
+
+# Capítulo 11 - Aula 01 - Imagens Dinâmicas
+15/03/2022
+
+Vários tamanhos de imagem que são carrecagados dinamicamente.
+
+## Imagens
+300x300 - Resolução 80x80 - Texto: "P" centralizado 150px tamanho opacidade de 50% - Fundo #fbe9d1;
+700x700 - Resolução 80x80 - Texto: "M" centralizado 150px tamanho opacidade de 50% - Fundo: #f4d9c2;
+1000x1000 - Resolução 80x80 - Texto: "G" centralizado 150px tamanho opacidade de 50% - Fundo: #abc7ab; 
+
+# Capítulo 11 - Aula 02 - Imagens que se adaptam sozinhas
+
+```html
+<picture>
+    <source media="(max-width: 750px)" srcset="./imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="./imagens/foto-m.png" type="image/png">
+
+    <!--Imagem que será carregada se nenhuma das anteriores for atendida. -->
+    <img src="imagens/foto-g.png" alt="Imagem flexível">
+</picture>
+```
+
+# Capítulo 11 - Áudio em HTML5
+
+Cuidado com direitos autorais nas músicas/áudios.
 

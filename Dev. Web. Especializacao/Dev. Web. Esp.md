@@ -1,5 +1,13 @@
 # Desenvolvimento Web
 
+# SUMÁRIO
+- Desenvolvimento Web
+  - [Capítulo 11 - Aula 01](#cap11-a01) 
+  - [Capítulo 11 - Aula 02](#cap11-a02) 
+  - [Capítulo 11 - Aula 03](#cap11-a03)
+
+---
+
 # HTML e CSS, Parte 1
 
 ## 001 - Conteúdo do Curso
@@ -421,15 +429,24 @@ Segurar ALT e clicar em lugares onde quer alterar em massa.
 
 # Capítulo 11 - Aula 01 - Imagens Dinâmicas
 15/03/2022
+<a id="cap11-a01"></a>
+
+[Exercício 11](html-css/exercicios/ex011/index.html)
 
 Vários tamanhos de imagem que são carrecagados dinamicamente.
 
 ## Imagens
+```
 300x300 - Resolução 80x80 - Texto: "P" centralizado 150px tamanho opacidade de 50% - Fundo #fbe9d1;
 700x700 - Resolução 80x80 - Texto: "M" centralizado 150px tamanho opacidade de 50% - Fundo: #f4d9c2;
 1000x1000 - Resolução 80x80 - Texto: "G" centralizado 150px tamanho opacidade de 50% - Fundo: #abc7ab; 
+```
 
 # Capítulo 11 - Aula 02 - Imagens que se adaptam sozinhas
+15/03/2022
+<a id="cap11-a02"></a>
+
+[Exercício 11](html-css/exercicios/ex011/index.html)
 
 ```html
 <picture>
@@ -441,7 +458,54 @@ Vários tamanhos de imagem que são carrecagados dinamicamente.
 </picture>
 ```
 
-# Capítulo 11 - Áudio em HTML5
+# Capítulo 11 - Aula 02 - Áudio em HTML5
+15/03/2022
+<a id="cap11-a03"></a>
+
+[Exercício 11](html-css/exercicios/ex011/index.html)
 
 Cuidado com direitos autorais nas músicas/áudios.
 
+```html
+<!-- 
+Normalmente os navegadores suportam os seguintes formatos:
+MP3, WAV e OGG 
+-->
+<audio src="midia/happy-mistake.mp3" controls loop></audio>
+    <audio preload="metadata" controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <!-- Evitar WAV por ser muito pesado para o carregamento na web -->
+        
+        <!-- Irá aparecer o conteúdo a seguir caso o navegador não consiga carregar nenhuma das mídias acima, dentro da tag audio. -->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3">clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+```
+
+# Capítulo 11 - Aula 4 – Formatos de vídeo para seu site
+15/03/2022
+<a id="cap11-a04"></a>
+
+- Handbrake para a conversão de arquivos de vídeo.
+- mp4, webm, ogv
+- Cuidado com custos com uso de banda do provedor. Quanto menos o tamanhos dos arquivos o quanto puder (sem comprometer tanto a qualidade), melhor.
+
+# Capítulo 11 Aula 5 – Vídeos em hospedagem própria
+15/03/2022
+<a id="cap11-a03"></a>
+
+## Exemplo
+
+```html
+<video width="500px" controls poster="imagens/thumb.jpeg">
+    <source src="midia/meu_video.mp4" type="video/mp4">
+    <source src="midia/meu_video.m4v" type="video/mp4">
+    <source src="midia/meu_video.webm" type="video/webm">
+
+    <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+</video>
+```
+
+# Capítulo 11 Aula 6 – Incorporação de vídeos externos

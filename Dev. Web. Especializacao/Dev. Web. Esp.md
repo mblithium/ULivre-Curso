@@ -1,5 +1,7 @@
 # Desenvolvimento Web
 
+> Aqui neste arquivo estão todas as minhas anotações das aulas do curso, além de links internos para pular para conteúdos específicos.
+
 # SUMÁRIO
 - Desenvolvimento Web
   - [Capítulo 11 - Aula 01](#cap11-a01) 
@@ -499,7 +501,7 @@ MP3, WAV e OGG
 ## Exemplo
 
 ```html
-<video width="500px" controls poster="imagens/thumb.jpeg">
+<video width="500px" controls loop poster="imagens/thumb.jpeg">
     <source src="midia/meu_video.mp4" type="video/mp4">
     <source src="midia/meu_video.m4v" type="video/mp4">
     <source src="midia/meu_video.webm" type="video/webm">
@@ -508,4 +510,89 @@ MP3, WAV e OGG
 </video>
 ```
 
-# Capítulo 11 Aula 6 – Incorporação de vídeos externos
+# Capítulo 11 - Aula 6 – Incorporação de vídeos externos
+16/03/2022
+
+- Youtube
+- Vimeo
+
+# Capítulo 11 - Aula 7 – Desafio: um site com vídeos
+
+[Acessar desafio](https://github.com/gustavoguanabara/html-css/tree/master/desafios/modulo-01/d009)
+
+# Capítulo 12 - Aula 1 – Estilos CSS inline
+
+Folhas de estilo em cascata
+
+```html
+<!-- Não é recomendado. Usado apenas para alterações pontuais e únicas -->
+<!-- CSS é embutido na tag com o atributo "style" -->
+<h1 style="background-color: white">
+```
+
+# Capítulo 12 - Aula 02 - Estilos CSS Internos
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos Locais / Internos</title>
+    <style>
+        body {
+            background-color: lightsteelblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+</body>
+</html>
+```
+
+# Capítulo 13 - Aula 00 – O que vamos aprender no módulo 02?
+
+## Capítulo 13
+- Psicologia das Cores;
+- Harmonização das Cores;
+- Paleta de Cores;
+
+## Capítulo 14
+- Tipografia;
+- Família de donte com CSS;
+- Peso, estilo e shorthand font;
+- Google Fontes;
+- Fontes externas baixadas;
+- Identificando fontes usadas em algum site e dentro de imagens;
+- Alinhamento de textos com CSS;
+
+## Capítulo 15
+- ID com CSS;
+- Diferença entre ID e Class;
+- Pseudo-classes com CSS;
+
+## Capitulo 16
+- Modelo de Caixas;
+- Modelo de Caixas na prática;
+- Grouping Tags em HTML5;
+- Sombra nas Caixas;
+- Caixas com véstices arredondados;
+- Bordas decoradas;
+  
+## Capítulo 17
+- Criando projeto a partir do zero;
+- Planejando layout;
+- Transformando layout em código;
+- Organizando conteúdo do site;
+- Variáveis em CSS;
+- Responsividade;
+- Headers e Menus;
+- Melhorando formato do conteúdo;
+- Rodapé, conteúdo periférico e links;
+- Vídeo responsivo
+
+# Capítulo 13 - Aula 01 - Psicologia das Cores
+

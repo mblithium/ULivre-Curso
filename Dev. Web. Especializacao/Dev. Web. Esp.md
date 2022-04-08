@@ -517,10 +517,12 @@ MP3, WAV e OGG
 - Vimeo
 
 # Capítulo 11 - Aula 7 – Desafio: um site com vídeos
+17/03/2022
 
 [Acessar desafio](https://github.com/gustavoguanabara/html-css/tree/master/desafios/modulo-01/d009)
 
 # Capítulo 12 - Aula 1 – Estilos CSS inline
+17/03/2022
 
 Folhas de estilo em cascata
 
@@ -531,6 +533,7 @@ Folhas de estilo em cascata
 ```
 
 # Capítulo 12 - Aula 02 - Estilos CSS Internos
+17/03/2022
 
 ```html
 <!DOCTYPE html>
@@ -595,4 +598,222 @@ Folhas de estilo em cascata
 - Vídeo responsivo
 
 # Capítulo 13 - Aula 01 - Psicologia das Cores
+18/03/2022
+
+- Cores expressão certas emoções;
+- A decisão de adquirir um produto está relacionada com sua apresentação visual e harmonia.
+
+# Capítulo 13 - Aula 02 - Representando Cores com CSS3
+18/03/2022
+
+- As cores são um conjunto de combinações de vermelho, verde e azul. Red/Green/Blue (RGB).
+- Representação por Hexadecimal, RGB e HSL.
+
+
+# Capítulo 13 - Aula 03 - Harmonia de cores
+18/03/2022
+
+Harmonia de Cores com CSS3
+
+## Círculo Cromático: Usado para harmonizar as cores.
+
+- Algo cimétrico é mais bonito;
+- Cor é importante;
+
+**Cores primárias:** Amarelo, Vermelho e Azul;
+**Cores secundárias:** Laranja, Violeta e Verde;
+**Cores terciárias:** Misturas das cores primárias e secundárias. Amarelo-esverdeado, Amarelo-alaranjado, Vermelho-alaranjado, Vermelho-arroxeado, Azul-arroxeado, Azul-esverdeado. A primária vem primeiro no nome.
+
+## Temperatura de Cores
+
+**Do verde ao roxo:** Cores frias;
+**Do amarelo ao vermelho-arroxeado:** Cores quentes;
+
+## Paleta
+
+- 3 a 5 cores na máxima;
+- Conjunto de cores já harmonizadas para o projeto.
+
+## Cores Complementares
+
+- As cores que mais constratam entre sí.
+- Normalmente cor imediatamente oposta no círculo cromática.
+- 
+**Exemplos:** Roxo e Amarelo, Vermelho e Verde, Azul e laranja.
+
+## Cores Análogas
+
+- Cores imediatamente ao lado no círculo cromático;
+
+
+## Cores Análogas + uma Complementar
+
+- Do ponto principal, cor inversa ao da principal, traçando uma reta para frente.
+
+## Cores Análogas Relacionadas
+
+- 2 Análogas, e a terceira cor pula uma.
+**Exemplos:**
+Amarelo e Amarelo-alaranjado + Laranja (pula o Amarelo-alaranjado); 
+Amarelo e Amarelo-alaranjado + Verde (pula o Amarelo-esverdeado);
+
+## Cores intercaladas
+
+Pula 1 no circúlo cromático toda vez, a partir da cor principal escolhidas.
+
+**Exemplo:**
+
+Amarelo: Laranja, Vermelho, 
+Amarelo-esverdeado: Azul-esverdeado, Roxo; 
+
+## Cores Triáticas
+
+Triângulo Equilátero
+**Exemplo:** Amarelo, Azul e Vermelho;
+
+## Cores em Quadrado
+
+Pula duas cores
+
+**Exemplo:** Amarelo, Vermelho-Alaranjado, Lilás, Azul-esverdeado;
+
+## Cores Tetráticas
+
+1 principal + 1 análoga, depois outra principal e outra análoga. (traçando um X) que vira um retângulo.
+
+**Exemplo:**
+Verde, Vermelho e Azul e Laranja.
+
+## Monocromia
+
+Uma cor, mudando saturação e luminosidade.
+
+# Capítulo 13 - Aula 04 - Paleta de Cores
+26/03/2022
+
+- [Adobe Color](https://color.adobe.com/pt/);
+- [Paletton](https://paletton.com);
+- [Coolors](https://coolors.co);
+
+# Capítulo 13 - Aula 05 - Como capturar cores da tela
+28/03/2022
+
+- Extensão "CollorZilla" para navegadores com base Chromium.
+- No Firefox, Menu > Ferramentas > Seletor de Cores.
+
+# Capítulo 13 - Aula 06 - Como criar degradê com CSS?
+28/03/2022
+
+# Capítulo 13 - Aula 07 - Criando um exemplo real
+28/03/2022
+[Exercício 16](./html-css/exercicios/ex016/color03.html)
+
+- Juntando os conhecimentos de harmonia de cores e organização da página, para criar um design com HTML5 e CSS3.
+
+# Capítulo 14 - Aula 01 - Primeiros passos em Tipografia
+28/03/2022
+
+## Conceitos Fundamentais
+
+- Os livros surgiram no século 15 quando surgiu a imprensa;
+- Monges copistas;
+- 1450 - Johannes Gutenberg - Criou a prensa mecânica de tipos móveis. Várias peças de metal com letras, que formavam paralavras, que era jogado tinta e a prensa iria nos papeis.
+- Letras mais fáceis de ler. Surgiu a Tipografia.
+- Týpos = Impressão | graphía = Escrita Estudo de como são escritas as coisas, legibilidade, forma, emoção, etc.
+
+# Capítulo 14 - Aula 02 - Anatomia do tipo
+28/03/2022
+
+## Anatomia do tipo
+28/03/2022
+
+- Serifa, Sem serifa;
+- Tamanho total;
+- Tamanho de fonte maiúscula e minúscula;
+- Espaço entre letras;
+
+- Letra x minúscula é o ponto de partida para criação da fonte, altura-x;
+- Altura das maiúsculas;
+- Ascendente (o que vazou para cima);
+- Descendente (o que vazou para baixo);
+- Todas as alturas é o "corpo"
+
+Serifa é aquela linha ou prolongamento do final de cada letra, para melhorar a leitura da fonte como se criasse uma linha imaginária que o cérebro percebe para se guiar na leitura.
+
+Uma linha na letra se chama de Haste, no caso se tiver servindo para unir duas Hastes ou arcos, se chama de Filete. Arco é a forma arredondada. O elemento que "sustenta" a letra na linha é chamado de "esporão". Vértice é uma ponta na letra, como acontece nas letras "A" e "V". Terminal é uma linha que sai de uma haste mas não se conecta a outra. Braço é um elemento que sai da haste e se conecta com outros elementos direcionado para cima, a perna é direcionada para baixo. A curva da letra "S" é chamada de "Espinha". Dois arcos ou mais juntos é chamado de "Barriga". Área interna ou "buraco" na letra é chamado de "Olho". A "Orelha" é uma parte saindo de um arco de cima e para baixo é chamado de "Cauda".
+
+Conjunto de Glifos são chamadas de Fontes.
+
+## Família tipográfica
+
+São as variações de uma determinada fonte.
+
+**Exemplo:**
+
+- Open Sans
+- Open Sans light
+- Open Sans normal
+- Open Sans semibold
+- Open Sans bold
+- Open Sans extrabold
+
+## Categoria de Fontes
+
+- **Serifadas:** Que tem aquela linha para facilitar a leitura, como se criassse uma linha imaginária;
+- **Sans-serif:** Ou não-serifadas, que é o oposto das serifadas, sem aquele elemento;
+- **Monoespaçadas:** Todos os caracteres tem o mesmo espaço;
+- **Handwrite/Script:** Simula a escrita feito a mão;
+- **Display:** Não tem nenhuma das características acima ou tem poucas, não se preocupam com isso, algo comemorativo ou especial para expressar algo.
+
+# Capítulo 14 - Aula 03 - Famílias de fonte com CSS
+31/03/2022
+
+- CSS Web Safe font combination (W3Schools);
+- **Declaração genérica:** sans-serif, serif, monospace, cursive, fantasy, etc (o dispositivo seleciona qualquer uma por padrão dele.)
+
+# Capítulo 14 - Aula 04 - Tamanho de fonte e suas medidas
+06/04/2022
+
+- Segundo as recomendações do W3C
+
+**Medidas Absolutas**
+- cm (centímetro);
+- mm (milímetro);
+- in (polegadas); 
+- px (pixels); 
+- pt (pontos); 
+- pc (picas/paicas)
+
+**Medidas Relativas**
+- em (medida relativa ao tamanho atual da fonte); 
+- ex (relativa a altura x de uma fonte); 
+- rem (medida relativa ao tamanho da fonte atual do root/body);
+- vw (relativo ao tamanho da largura da tela);
+- vh (ViewHight, relativo ao tamanho da altura da tela); 
+- % (Porcentagem).
+
+16px geralmente é 1em
+px e em para fontes é recomendado pela W3C
+
+# Capítulo 14 - Aula 05 - Peso, estilo e shorthand font
+06/04/2022
+
+Weight = Peso; Width: Largura; Height = Largura.
+Numérica: de 100 a 900.
+
+```css
+font-family: 'Work Sans', sans-serif;
+font-weight: bolder;
+font-size: 3em;
+font-size: italic;
+```
+
+Com shorthand:
+
+```css
+font: italic bolder 3em 'Work Sans', sans-serif;
+```
+
+# Capítulo 14 - Aula 06 - Usando Google Fonts
+06/04/2022
 

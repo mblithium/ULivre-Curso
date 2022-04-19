@@ -817,3 +817,187 @@ font: italic bolder 3em 'Work Sans', sans-serif;
 # Capítulo 14 - Aula 06 - Usando Google Fonts
 06/04/2022
 
+# Capítulo 14 - Aula 07 - Usando fontes externas baixadas
+10/04/2022
+
+```css
+@font-face {
+            font-family: 'Heart Blues';
+            src: url('./fonts/HeartBlues.otf') format('opentype'), url('./fonts/HeartBlues.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                Tipos de Formatos
+                - Opentype (otf);
+                - Truetype (ttf);
+                - Embedded-opentype;
+                - Truetype-aat (Apple Adcanved Typography)
+                - SVG
+            */
+        }
+```
+
+# Capítulo 14 - Aula 08 - Capturando as fontes usadas em um site
+10/04/2022
+
+- Extensão font ninja;
+
+# Capítulo 14 - Aula 09 - Detectando fontes dentro de imagens
+12/04/2022
+
+- WhatFontIs;
+- FontSquirrel (Font Identifier);
+- MyFonts (WhatTheFont)
+
+# Capítulo 14 - Aula 10 - Alinhamento de textos com CSS
+12/04/2022
+
+- text-align (alinhar o texto);
+- text-indent (identar o texto, a primeira letra e linha do parágrafo)
+
+# Capítulo 15 - Aula 01 - Usando o ID com CSS
+14/02/2022
+
+```html
+<h1 id="principal">Título</h1>
+<h1>Título</h1>
+```
+
+```css
+h1 {
+    color: rgb(4, 109, 0)
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(4, 109, 0);
+    color: white;
+}
+/* Por ser um ID, ele terá maior prioridade na formatação. */
+```
+
+# Capítulo 15 - Aula 02 - As diferenças entre ID e Class
+14/02/2022
+
+**ID** = Para elementos importantes ou específicos; Só um ID por documento.
+**class** = Como o nome diz, para uma "classe de elementos" que herdam a mesma formatação. Pode ter vários.
+
+**Os nomes deve ser descrições do que ele é, não da sua forma:**
+**Exemplo:**
+
+```html
+<!-- ERRADO -->
+<h2 class="verde">Texto</h2> 
+
+<!-- CERTO -->
+<h2 class="basico"></h2>
+<!-- Referente ao que ele representa, neste caso, a títulos como "HTML Básico", "CSS Básico". Javascript Básico", etc. -->
+```
+
+# Capítulo 15 - Aula 03 - Pseudo-classes em CSS
+16/02/2022
+
+":" é uma pseudo-classe no CSS. Relacionados a um elemento ou classe. Estado de um elemento.
+
+```css
+div > p {
+    /* Estilos aplicados a todos os elementos P (parágrafo) que estão dentro de um elemento DIV. Notação de Pai > Filho */
+}
+div:hover {
+    /* Pseudo-classe que trata de um evento quando estiver em foco com o mouse.*/
+}
+```
+# Capítulo 15 - Aula 04 - Pseudo-elementos em CSS
+16/02/2022
+
+## Pseudo-elemento
+Altera o conteúdo do elemento;
+Utiliza a notação "::"
+
+# Capítulo 16 - Aula 01 - Modelo de Caixas: Primeiros passos
+16/02/2022
+
+HTML5 / CSS3
+
+## Modelo de Caixas
+Tudo que é exibido é baseado em um formato de caixa, mesmo se visualmente tiver outras formas em essência é uma caixa. É possível colocar caixas dentro de outras caixas.
+
+```html
+<h1>Título</h1>
+
+```
+
+**Toda caixa tem:**
+- height; (Altura)
+- width; (Largura)
+- border; (Borda)
+- padding; (Acolchoamento/Preenchimento. Dentro da caixa.)
+- margin; (Margem, fora da caixa.)
+- outline; (Contorno. Fora do elemento.)
+
+## Tipos de caixa
+- **Box-level**: Sempre se inicia em uma linha nova e ocupa a largura total da tela. **Exemplos**: div, h1 ao h2, p, main, header, nav, aside, footer, form, video, article, etc.
+- **Inline-level**: Não inicia em nova linha e ocupa só o necessário do conteúdo do elemento. **Exemplos**: span, a, code, small, strong, em, sup - sub, label, button, input, select, etc.
+
+# Capítulo 16 - Aula 02 - Modelo de Caixas na prática (Pt.1)
+16/02/2022
+
+Box-level
+
+User agent stylesheet são os estilos do navegador.
+
+
+# Capítulo 16 - Aula 03 - Modelo de Caixas na prática (Pt.2)
+18/02/2022
+[Exercício 21](html-css/exercicios/ex021/caixa01.html)
+
+# Capítulo 16 - Aula 04 - Grouping Tags em HTML5
+18/02/2022
+
+```html
+<header>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <aside></aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por .</p>
+    </footer>
+```
+
+# Capítulo 16 - Aula 05 - Sombra das Caixas
+18/04/2022
+```css
+nav {
+    /* Pos.Horizontal (offset-x) | Pos.Vertical (offset-y) | Blur | Espalhament */
+    box-shadow: 4px 4px 1px 2px #0000006e;
+}
+```
+
+# Capítulo 16 - Aula 06 - Caixas com vértices arredondados
+18/04/2022
+
+```css
+main {
+    /* Sup.Esq | Inf.Direito | Sup. Direito | Inf. Esquerdo */
+    border-radius: 15px 20px 40px 5px;
+}
+```
+
+# Capítulo 16 - Aula 07 - Bordas decoradas
+18/04/2022
+
+# Desafio
+ 

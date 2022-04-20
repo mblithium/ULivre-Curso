@@ -997,7 +997,29 @@ main {
 ```
 
 # Capítulo 16 - Aula 07 - Bordas decoradas
-18/04/2022
+19/04/2022
 
 # Desafio
- 
+ [Desafio 10 - Android](https://github.com/gustavoguanabara/html-css/tree/master/desafios/modulo-02/d010)
+
+ # Capítulo 17 - Aula 01 - Criando um projeto do zero
+ 19/04/2022
+
+ # Capítulo 17 - Aula 02 - Navegando pelo projeto pronto
+ 19/04/2022
+
+ - Evite copiar
+ - Tente sempre criar
+ - Websites com responsividade
+  
+# Capítulo 17 - Aula 03 - Planejando a estrutura do seu site
+19/04/2022
+
+## Planejamento de site - Ferramentas
+- Mockflow: para planejar mockups de sites e aplicativos.
+- Adobe Colors: para criar paletas de cores. 3DDC84 (android).
+- Google Fonts: Para encontrar fontes. Bebas Neue (titulos).
+- Dafont: encontrar e baixar fontes. Idroid.
+
+# Capítulo 17 - Aula 04 - Transformando o layout em código
+

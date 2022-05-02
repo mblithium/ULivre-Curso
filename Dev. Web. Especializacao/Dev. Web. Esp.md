@@ -1030,3 +1030,12 @@ main {
 # Capítulo 17 - Aula 06 - Variáveis em CSS
 02/05/2022
 
+```css
+:root {
+    --variavel: valor;
+}
+
+h1 {
+    font-family: var(--variavel)
+}
+```

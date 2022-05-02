@@ -1022,4 +1022,11 @@ main {
 - Dafont: encontrar e baixar fontes. Idroid.
 
 # Capítulo 17 - Aula 04 - Transformando o layout em código
+24/04/2022
+
+# Capítulo 17 - Aula 05 - Organizando o conteúdo do site
+28/04/2022
+
+# Capítulo 17 - Aula 06 - Variáveis em CSS
+02/05/2022
 

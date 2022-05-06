@@ -1039,3 +1039,6 @@ h1 {
     font-family: var(--variavel)
 }
 ```
+
+# Capítulo 17 - Aula 07 - Responsividade para sites
+05/05/2022

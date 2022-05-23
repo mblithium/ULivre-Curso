@@ -597,6 +597,8 @@ Folhas de estilo em cascata
 - Rodapé, conteúdo periférico e links;
 - Vídeo responsivo
 
+# Módulo 2
+
 # Capítulo 13 - Aula 01 - Psicologia das Cores
 18/03/2022
 
@@ -1041,4 +1043,55 @@ h1 {
 ```
 
 # Capítulo 17 - Aula 07 - Responsividade para sites
-05/05/2022
+16/05/2022
+
+```html
+<picture>
+    <source media="(max-width: 800px)" srcset="imagens/irina-blok-pq.jpg">
+    <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+</picture>
+```
+
+# Capítulo 17 - Aula 08 - Responsividade na prática
+17/05/2022
+
+```html
+
+```
+
+```css
+/* Irá alinhar ao meio, dentro do elemento pai. */
+.element {
+    display: block;
+    margin: auto;
+}
+```
+
+# Capítulo 17 - Aula 09 - Configurando o header e o menu do site
+18/05/2022
+
+```html
+<header>
+    <h1>Curiosidades de Tecnologia</h1>
+    <p>Tudo aquilo que você sempre quis sobre o mundo tech em um único lugar!</p>
+</header>
+```
+# Capítulo 17 - Aula 10 - Melhorando o formato do conteúdo
+18/05/2022
+
+# Capítulo 17 - Aula 11 - Rodapé, conteúdo periférico e links
+21/05/2022
+
+# Capítulo 17 - Aula 12 - Tornando um vídeo reponsivo
+21/05/2022
+
+# Fim do módulo 2
+21/05/2022
+
+# Capítulo 18 - Aula 00 - O que vamos aprender no módulo 3?
+23/05/2022
+
+- Cap. 18 - Git e Github;
+- Cap. 19 - Lidar com backgrounds e suas shorthands;
+- Cap. 20 - Projeto "Cordel" do zero.
+- Cap. 21 - Tabelas (Estilização e tratamento)
